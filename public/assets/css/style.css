@@ -1,0 +1,52 @@
+*{
+    font-family: sans-serif !important;
+}
+/* -------------------------------------------- */
+.navbar{
+    background:  #000000a4;;
+}
+/* -------------------------------------------- */
+header {
+    min-height: 100vh;
+    background-image: url("/assets/img/reuniao1.jpg");
+    background-size: cover;
+    background-position:  center;
+}
+
+.header-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #000000a4;
+}
+/* -------------------------------------------- */
+.card-h{
+    min-height: 20vh;
+    max-height: 30vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+.card-h-container{
+    min-height: 20vh;
+    max-height: 30vh;
+    padding: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: transparent !important;
+    transition: all 0.3s ease-in-out;
+}
+.card-h-container:hover{
+    background-color: #000000a4;
+    border-radius: 8px;
+    color: #fff !important;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
